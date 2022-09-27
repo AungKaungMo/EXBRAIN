@@ -1,0 +1,4 @@
+Level tu yin ./
+level ma tu bu so yin./ folderName/
+folder2 ku lone ma tu bu so yin ../folderName/
+<a href target="_blank"></a> new tab any nk paw lr //_self ka default tan bhoe

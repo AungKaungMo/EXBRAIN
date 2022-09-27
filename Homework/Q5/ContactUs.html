@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body bgcolor="skyblue">
+    <a href="Q5.html">back</a>
+    <form>
+      <br />
+      <fieldset>
+        <legend><b>Request Form</b></legend>
+        <img src="plant.png" alt="plant" width="100px" />
+        <h2><i>User Information</i></h2>
+        <label for="date">Register DateTime : </label>
+        <input type="text" id="date" value="2021/06/04 12:00 AM" disabled />
+        <br /><br />
+        <label for="username">Username : </label>
+        <input type="text" id="username" placeholder="john1234" required />
+        <br /><br />
+        <label for="pass">password : </label>
+        <input type="password" id="pass" />
+        <br /><br />
+        <label for="age">Age : </label>
+        <input type="number" id="age" />
+        <br /><br />
+        <label>Gender : </label>
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Custom</option>
+        </select>
+        <br /><br />
+        <label>Education : </label>
+        <input type="radio" name="edu" /><b>UnderGraduated</b>
+        <input type="radio" name="edu" /><b>Bachelor</b>
+        <input type="radio" name="edu" /><b>Master</b> 
+        <br /><br />
+        <label>Card : </label>
+        <input type="checkbox" /><b>Car license</b> 
+        <input type="checkbox" /><b>Passport</b>
+        <input type="checkbox" checked /><b>NRC</b> 
+        <br /><br />
+        <label for="hobb">Hobby</label>
+        <input list="hobby" id="hobb" />
+        <datalist id="hobby">
+          <option>Programing</option>
+          <option>Football</option>
+          <option>Basketball</option>
+          <option>Swimming</option>
+          <option>Dancing</option>
+        </datalist>
+        <br /><br />
+        <label>Upload Your Profile</label>
+        <input type="file" />
+        <br /><br />
+        <label for="address">Address</label>
+        <textarea id="address"></textarea>
+        <br /><br />
+        <input type="reset" value="Default" />
+        <input type="submit" value="Send" />
+      </fieldset>
+    </form>
+    <p align="center">Copyright &#169; plantshop</p>
+  </body>
+</html>

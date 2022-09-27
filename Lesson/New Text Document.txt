@@ -1,0 +1,1 @@
+default margin ka 8px; pet lal ko
