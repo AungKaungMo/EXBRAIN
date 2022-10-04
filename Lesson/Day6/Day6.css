@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+  }
+  
+  .parent {
+    height: 1000px;
+    background-color: seagreen;
+  }
+  
+  .p1 {
+    background-color: blueviolet;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .p2 {
+    background-color: teal;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .p3 {
+    background-color: tomato;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .p4 {
+    background-color: violet;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .parent{
+    position: relative;
+  }
+  
+  .p1{
+    position: sticky;
+    top:0px;
+  }
+  
+  .p2{
+    position: sticky;
+    top:70px;
+  }
+  
+  .p3{
+    position: sticky;
+    top:0px;
+  }
+  
+  .p4{
+    position: sticky;
+    top:0px;
+  }
+  
+  

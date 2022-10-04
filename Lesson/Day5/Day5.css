@@ -1,0 +1,13 @@
+h1{
+    color:gray;
+}
+.d1{
+    width: 2000px;
+    border:1px solid green;
+    margin-bottom: 20px;
+}
+.d2{
+   
+    border:1px solid green;
+    min-width: 700px;
+}

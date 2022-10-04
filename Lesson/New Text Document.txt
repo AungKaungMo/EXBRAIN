@@ -1,1 +1,31 @@
 default margin ka 8px; pet lal ko
+
+relative => thu pin ko ny yr ka kyn ny tl thu ka top tachr ny yr ko lyk ywae ny tl
+
+absolute => inline pone sn fik twr /thu ny yr pyout thwr 
+ 
+***absolute ka orginal so thu yae parent ka ny tg kyoon hwt twr tr kyg parent atwin mr pl ywar shar khine chin yin parent ko position:relative nk twl thone***
+
+sticky => relative + fixed; thu ny yr ko chan htr tl scroll bar swal tae ny yr tie par twr tl 
+eg. top ko 10px py lyk tae akhr mr scroll bar swal loh top nk 10px luk kwr twr tae akhr nyein twr p sticky fik twr tl 
+
+overflow => visible ka default(width htet kyw yin tg sr tr ty myin ya) / hidden ka kyw twr yin ma myin ya top bu
+		scroll->kyw twr yin scroll bar nk pya*(width ma kyaw ll boung ly pya py tl) / auto-> scroll bar hwt(width ma kyaw bu so boung ly ma hwt)
+
+Float => inline fik twr / kyn tae ny yr ko tachr tag ko ny yr py lyk tl /ny yr ma u chin bu so yin clear:both ko thone ya (both=>left pl py py right pl py py clear loke)
+
+interpretor => python,javascript
+complier => c,assembly
+byte code => java
+transpiler => typescript
+
+js
+
+defer => kana sount p out ka hr ty hti ayin twr //body out mhr yay tr nk sr yin top speed ka nelnel nhay tl
+
+
+
+
+
+
+
