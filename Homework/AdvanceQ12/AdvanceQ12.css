@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fce029;
+  font-family: "Cinzel", serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.twoMinionsBg img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+.twoMinionsBg img:first-child {
+  bottom: 40px;
+  right: -80px;
+}
+.twoMinionsBg img:last-child {
+  bottom: -25px;
+  left: 40px;
+}
+.game {
+  text-align: center;
+  margin-top: 1em;
+}
+.game h1 {
+  letter-spacing: 7px;
+  font-weight: 200;
+  font-size: 2.5em;
+  margin-bottom: 0.7em;
+}
+.gameContainer {
+  width: 450px;
+  height: 540px;
+  border-radius: 13px;
+  border: 8px solid black;
+  margin: 0 auto;
+}
+.gameDetailsForEach {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  place-items: center;
+  margin-top: 0.8em;
+}
+.gameDetails {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s;
+  transform-style: preserve-3d;
+}
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  color: #fce029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  position: absolute;
+  border-radius: 20px;
+  /* backface-visibility: hidden; */
+}
+.front {
+  background-color: black;
+  z-index: 2;
+  backface-visibility: hidden;
+}
+.back {
+  background-color: black;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.back img {
+  /* z-index: 1; */
+  width: 80%;
+}
+.gameDetailsFlip {
+  transform: rotateY(180deg);
+}
+.gameDisBar {
+  width: 100%;
+  height: 130px;
+  border-radius: 13px;
+  background-color: black;
+  margin-top: 0.5em;
+}
+.gameDisBarContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fce029;
+  /* padding-top: 0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em; */
+  padding: 0.7em 0.4em 0 0.4em;
+}
+.clock img {
+  width: 100px;
+}
+.clock,
+.times {
+  display: flex;
+}
+.times {
+  margin-top: 40px;
+}
+.reBtn {
+  margin-top: 32px;
+}
+.reBtn button {
+  width: 140px;
+  padding: 0.5em;
+  background-color: #fce029;
+  font-family: "Cinzel", serif;
+  font-size: 1em;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 400;
+}
+#timeOver {
+  margin-top: 40px;
+}
+.correct {
+  animation: vibrate 0.4s ease-in-out;
+}
+.wrong {
+  animation: shaking 0.4s ease-in-out;
+}
+@keyframes vibrate {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes shaking {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-13px);
+  }
+  40% {
+    transform: translateX(13px);
+  }
+  60% {
+    transform: translateX(-8px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#refresh {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .twoMinionsBg img:last-child {
+    bottom: -25px;
+    left: -80px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .twoMinionsBg img:first-child {
+    bottom: 40px;
+    right: -120px;
+  }
+  .twoMinionsBg img:last-child {
+    bottom: -25px;
+    left: -120px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .twoMinionsBg img:first-child {
+    bottom: -50px;
+    right: -120px;
+  }
+  .gameContainer {
+    width: 350px;
+  }
+  .gameDetails {
+    width: 70px;
+    height: 70px;
+  }
+  .gameDisBarContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gameDisBar {
+    height: 208px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .twoMinionsBg img:last-child {
+    width: 200px;
+  }
+  .twoMinionsBg img:first-child {
+    width: 200px;
+  }
+  .gameContainer {
+    width: 280px;
+    height: 500px;
+  }
+  .gameDetails {
+    width: 60px;
+    height: 60px;
+  }
+  .gameDisBarContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gameDisBar {
+    height: 208px;
+  }
+}
+.pointerEvent {
+  pointer-events: none;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+
+    <!--------------------   GOOGLE FONTS  ---------------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!----------------------  Font awesome  ------------------------------------->
+
+    <script
+      src="https://kit.fontawesome.com/de471be2d6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!----------------------  CSS  ------------------------------------->
+
+    <link rel="stylesheet" href="./AdvanceQ12.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="twoMinionsBg">
+        <img src="./img/mibg.png" />
+        <img src="./img/fus.png" />
+      </div>
+
+      <div class="game">
+        <h1 id="check">FIND US</h1>
+        <div class="gameContainer">
+          <audio src="./sounds/wrong-buzzer-6268.mp3" id="wrongSound"></audio>
+          <audio src="./sounds/clickCorrect.wav" id="clickSound"></audio>
+          <audio src="./sounds/lose.wav" id="gameLoseSound"></audio>
+          <audio
+            src="./sounds/mixkit-correct-answer-tone-2870.wav"
+            id="correctSound"
+          ></audio>
+          <audio src="./sounds/win.mp3" id="gameWinSound"></audio>
+          <div class="gameDetailsForEach">
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion1.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion2.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion4.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion3.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="gameDetailsForEach">
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion5.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion7.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion6.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion7.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="gameDetailsForEach">
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion8.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion3.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion4.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion5.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="gameDetailsForEach">
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion2.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion1.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion8.png" />
+              </div>
+            </div>
+            <div class="gameDetails">
+              <div class="front">
+                <i class="fa-solid fa-question"></i>
+              </div>
+              <div class="back">
+                <img class="minions" src="./img/minion6.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="gameDisBar">
+            <div class="gameDisBarContainer">
+              <div class="clock">
+                <img src="./img/clock.png" />
+                <p id="timeOver">60 S</p>
+              </div>
+              <div class="times">
+                <h3>Flip :</h3>
+                &nbsp;
+                <p id="flipTime">0</p>
+              </div>
+              <div class="reBtn">
+                <button id="start">Start</button>
+                <button id="refresh">Refresh</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./AdvanceQ12.js"></script>
+    <script src="./b.js"></script>
+  </body>
+</html>

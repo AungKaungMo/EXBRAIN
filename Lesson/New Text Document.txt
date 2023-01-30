@@ -23,9 +23,61 @@ js
 
 defer => kana sount p out ka hr ty hti ayin twr //body out mhr yay tr nk sr yin top speed ka nelnel nhay tl
 
+premitive =>string,undefined,null,number,boolean,symbol,bigint
+
+prefix =>++x // postfix =>x++
 
 
+			css link
+
+https://projects.verou.me/conic-gradient/
+https://unsplash.com/
+https://9elements.github.io/fancy-border-radius/
+https://onlinegiftools.com/create-transparent-gif
+https://unsplash.com/
+https://www.unscreen.com/upload
+https://freescreen.com
+
+gradient so opacity ka effect ma fik
+2D,3D => D means dimenshion , 2D ka a hla yr nk a nan
+scale ka size 0.5 so tawat, scale x(1.5)so x pl kyee lr/ scale y(1.5)so y pl kyee lr 
+scale ka 1 mhr original state;
+skewx so x win yoe atine bel bet ko yine twr tl skewy so vertical yine twr tl 
+transition: all / all means shi tamya properties ar lone ko smooth fik ag loke ml
 
 
+			//element selector
+desecendant selector(space) div p
+div > p so div yae out mhr dike yike shi ny thaw p tag ty ko u(direct child)
+div + p so yin level tu p cht chin lr tae hr takhu ko pl u div yae atwin mhr ma hok pl div nk level tu p cht chin lr tae pone sn(adjacent sibling selector)=>kat hlyat shi tw mg na ma
+div ~ p so yin level tu ya ml cht chin ma lr pl gyar htl mr takhu khu khn ny yin ll ya tl(general sibling selector)
+*=>universal selector
 
 
+css mhr koh br tr attribute bhn te p tone loh ya tl
+eg.<a href="..fhei" myattr>
+css mhr [myattr]{
+	color:red;
+}
+attribute ko vale py ll ya
+eg.<a href="..fhei" myattr="a">
+css mhr [myattr= "a"]{
+	color:red;
+}
+attribute & vlaue kyk taluk py loh ya
+li:not(.a){
+	color:red;
+}//a class fik ny tr ka lwl loh kyn tr akone u ml
+
+ma sent top tae ayg background ty ko color phyae chin yin backdrop tonee
+eg.video::backdrop{
+	backgroundcolor:green;
+}
+
+//eng sr tn htoe mmsub twy atwt bhan te ya tr .vtt nae yay
+
+indetermediate => 0 ll ma hok 1 ll ma hok true ll ma hok false ll ma hok yin aloke loke
+
+
+mutable - value htl ka value ko pyg loh ya taku lone chg ma ya (const so yin ll ya)
+immutable - value taku lone pl chg loh ya taku chin chg ma ya

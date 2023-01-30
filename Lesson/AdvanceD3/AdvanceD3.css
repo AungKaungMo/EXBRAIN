@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate;ta hlae se */
+    animation-direction: alternate-reverse;/*to ka ny from*/
+    animation-timing-function: ease-in;
+    /*linear ka default*/
+
+}
+@keyframes move {
+    from{
+        background-color: rgb(104, 70, 81);
+        transform: translateX(0px);
+    }to{
+        transform: translateX(200px);
+    }
+}

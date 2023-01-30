@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:  #FFFDE4;
+}
+.one, .two, .three{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 19px;
+    
+}
+.loading1, .loading2, .loading3,.hov ,.box{
+   border-style: solid;
+   color: white;
+     margin-left: 10px; 
+    background-color: tomato;
+    padding: 14px; 
+    border-color: tomato;
+     border-radius: 50%; 
+    transition: all 1s;
+    cursor: pointer;
+    box-shadow: 0 0 6px black;
+}
+.loading1:hover{
+    box-shadow: 0 10px 6px black;
+    transform: translateY(-25px);
+}
+.loading2:hover{
+    transform: rotate(180deg);
+}
+.loading3:hover{
+    transform: scaleY(-1);
+}
+.box{
+    display: none; 
+    position: absolute;
+    left: -50px;
+    margin-top: 90px;
+}
+.hov{
+    margin-top: 90px;
+    transform: translateX(280px) rotate(360deg);
+    transition: all 3s;
+}
+.go{
+    width:100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: tomato;
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+}

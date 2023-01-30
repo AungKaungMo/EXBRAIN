@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: 	#C7E3E1;
+}
+.table{
+    
+   width: 30%;
+    margin: auto;
+    margin-top: 40px;
+   border: 5px solid black;
+   display: none;
+   cursor: pointer;
+}
+.allInOne{
+    width:50px;
+    height: 50px;
+    background-color: transparent;
+    border:2px solid rgb(14, 13, 13);
+    text-align: center;
+    font-size: 16px;
+}
+.header{
+    margin-top: 30px;
+}
+.btn1 , .btn2{
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: #C7E3E1;
+    border-radius: 14px;
+    cursor:pointer;
+}
+.btn2{
+    display: none;
+}

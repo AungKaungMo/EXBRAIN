@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./AdvanceQ10.css">
+</head>
+<body >
+    
+    <div class="input-date-time">
+        <h1>Calendar</h1>
+        
+        <input id="inputYear" type="number" maxlength="4" placeholder="Enter Year"><br><br>
+        <input id="inputMonth" type="number" placeholder="Enter Month"><br><br>
+        <input id="inputDay" type="number" placeholder="Enter Day"><br><br>
+        <button id="show" onclick="calendar()">SHOW</button>
+    </div>
+    <div class="calendar-container">
+        <div class="calendar-details">
+            <div class="today-date">
+             
+                <div class="today-month">
+                    <h2 id="currentInputDay">Sunday</h2>
+                    <p id="currentInputMonth">November </p>
+                </div>
+                <div class="current-year">
+                    <h1 id="currentInputYear">2022</h1>
+                </div>
+            </div>
+            <hr>
+
+            <div class="weekday">
+                <span>S</span>
+                <span>M</span>
+                <span>T</span>
+                <span>W</span>
+                <span>T</span>
+                <span>F</span>
+                <span>S</span>
+            </div>
+            <hr>
+            <div class="allDays">
+                <div class="first-days-gp">
+                <div class="day"></div>
+                <div class="day"></div>
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+                <div class="day">5</div>
+            </div>
+
+            <div class="first-days-gp">
+                <div class="day">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+                <div class="day">11</div>
+                <div class="day">12</div>
+            </div>
+
+            <div class="first-days-gp">
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
+                <div class="day">19</div>
+            </div>
+
+            <div class="first-days-gp">
+                <div class="day">20</div>
+                <div class="day">21</div>
+                <div class="day">22</div>
+                <div class="day">23</div>
+                <div class="day">24</div>
+                <div class="day">25</div>
+                <div class="day">26</div>
+            </div>
+
+            <div class="first-days-gp">
+                <div class="day">27</div>
+                <div class="day">28</div>
+                <div class="day">29</div>
+                <div class="day">30</div>
+                <div class="day"></div>
+                <div class="day"></div>
+                <div class="day"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./AdvanceQ10.js"></script>
+</body>
+</html>

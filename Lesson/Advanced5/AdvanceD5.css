@@ -1,0 +1,51 @@
+.box{
+    color: white;
+    margin-top: 200px;
+    margin-left: 10px;
+    font-size: 40px;
+    position: relative;
+}
+
+
+.box::after{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 250px;
+   height: 5px;
+   background-color: red;
+   transition: all 1s;
+   transform: scale(0);
+   transform-origin: top left;
+}
+
+.box:hover::after{
+    transform: scale(1.1) ;
+    background-color: blueviolet;
+}
+input::file-selector-button{
+    color:red;
+    font-size: 12px;
+}
+/*choose file yae input ko design pyg py tr*/
+
+/* li::marker{
+    content: "%";
+    color:red
+}li yae sa sa chin salone ma sa khin content ko htae py tl */
+
+/* li:nth-child(2n-1)::marker{
+    color:yellow;
+    content:"#";
+} */
+
+input::placeholder{
+    color:red;
+    background-color: green;
+}
+.vedio::cue{
+    background-color: green;
+}
+/*subtitle ko pone sn chg*/
+

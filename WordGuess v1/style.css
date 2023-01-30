@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F8D9A8;
+    font-family: 'Rocher';
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 35%;
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 1em;
+}
+
+.imgContainer{
+    height: 80%;
+    width: 100%;
+}
+
+.imgContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textContainer{
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    letter-spacing: 10px;
+    font-palette: --Purples;
+}
+
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 7;
+}
+
+
+
+button{
+    font-family: 'Rocher';
+    position: absolute;
+    left: 40%;
+    top: 47%;
+    height: 8%;
+    width: 20%;
+    z-index: 1;
+    border-radius: 20px;
+    font-palette: --Purples; 
+    font-size: 2.5rem;
+    box-shadow: 2px 2px 2px aqua;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F8D9A8;
+    scale: 1.1;
+}
+
+
+@media screen and (max-width:1110px) {
+    button{
+        width: 30%;
+    }
+}
+@media screen and (max-width:780px) {
+    button{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+    button{
+        font-size: 1.5rem;
+    }
+}

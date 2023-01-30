@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  /* background-color: rgb(15, 15, 15);  */
+
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/bluelock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container {
+  margin: auto;
+  margin-top: 170px;
+  width: 300px;
+  height: 440px;
+  overflow: hidden;
+  border-top: 1px solid rgb(129, 129, 129);
+  border-left: 1px solid rgb(129, 129, 129);
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(109, 109, 109, 0.226);
+}
+.yoichi {
+  width: 50%;
+  float: right;
+  transition: all 4s;
+}
+.abouts {
+  color: rgb(156, 154, 182);
+  /* margin-left:10px; */
+  font-size: 13px;
+  padding-top: 30px;
+  font-weight: bold;
+  position: relative;
+  transition: all 2s;
+}
+.aboutN,
+.aboutA,
+.aboutP,
+.aboutS {
+  margin-top: 20px;
+  margin-left: 10px;
+  transition: all 3s;
+}
+.br {
+  position: absolute;
+  border-radius: 0% 100% 47% 53% / 15% 91% 9% 85%;
+  background-color: #3f000f;
+  width: 300px;
+  height: 350px;
+  transition: all 2s;
+}
+.rank {
+  font-size: 16px;
+  padding-top: 20px;
+  text-align: center;
+}
+span {
+  color: rgb(124, 13, 14);
+}
+.left {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+.right {
+  margin: 10px;
+  float: right;
+  padding: 10px;
+}
+.right-container,
+.left-container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.line1 {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(124, 13, 14);
+  transition: all 2s ease-out;
+}
+.line2 {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(124, 13, 14);
+  transition: all 2s ease-in;
+}
+.line4 {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(124, 13, 14);
+  transition: all 2s ease-in-out;
+}
+.s1,
+.s2,
+.s3 {
+  position: absolute;
+  left: 130px;
+}
+.s4,
+.s5,
+.s6 {
+  position: absolute;
+  right: 5px;
+}
+.buy {
+  color: rgb(156, 154, 182);
+  width: 100px;
+  height: 25px;
+  margin-left: 110px;
+  border-radius: 12px;
+  border-style: solid;
+  border: 1px solid rgb(124, 13, 14);
+  background-color: transparent;
+}
+.container:hover .br {
+  border-radius: 100% 0% 64% 36% / 91% 15% 85% 9%;
+}
+.container:hover .yoichi {
+  transform: translateX(-160px);
+}
+.container:hover .aboutN {
+  transform: translateX(160px);
+}
+.container:hover .aboutA {
+  transform: translateX(160px);
+}
+.container:hover .aboutP {
+  transform: translateX(160px);
+}
+.container:hover .aboutS {
+  transform: translateX(160px);
+}
+.container:hover .line1 {
+  width: 80px;
+}
+.container:hover .line2 {
+  width: 100px;
+}
+.container:hover .line4 {
+  width: 70px;
+}
+.prev,
+.next {
+  position: absolute;
+  bottom: 250px;
+  width: 80px;
+  height: 35px;
+  border-radius: 14px;
+  border-style: solid;
+  border: 2px solid rgb(124, 13, 14);
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.prev {
+  left: 10%;
+}
+.next {
+  right: 10%;
+}

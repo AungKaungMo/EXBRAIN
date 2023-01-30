@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 12</title>
+        
+        <link rel="stylesheet" href="./Q12.css">
+        
+    </head>
+    <body>
+        <h2 class="title">Mine Game</h2>
+        
+        <table class="table1" border="2">
+          
+            <span class="comScore">Scores : </span>
+            <span class="com">Computer : </span>
+            <tr>
+                <td id="11" class="cell" onclick="clicking(this)"></td>
+                <td id="12" class="cell" onclick="clicking(this)"></td>
+                <td id="13" class="cell" onclick="clicking(this)"></td>
+                <td id="14" class="cell" onclick="clicking(this)"></td>
+                <td id="15" class="cell" onclick="clicking(this)"></td>
+                <td id="16" class="cell" onclick="clicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="21" class="cell" onclick="clicking(this)"></td>
+                <td id="22" class="cell" onclick="clicking(this)"></td>
+                <td id="23" class="cell" onclick="clicking(this)"></td>
+                <td id="24" class="cell" onclick="clicking(this)"></td>
+                <td id="25" class="cell" onclick="clicking(this)"></td>
+                <td id="26" class="cell" onclick="clicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="31" class="cell" onclick="clicking(this)"></td>
+                <td id="32" class="cell" onclick="clicking(this)"></td>
+                <td id="33" class="cell" onclick="clicking(this)"></td>
+                <td id="34" class="cell" onclick="clicking(this)"></td>
+                <td id="35" class="cell" onclick="clicking(this)"></td>
+                <td id="36" class="cell" onclick="clicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="41" class="cell" onclick="clicking(this)"></td>
+                <td id="42" class="cell" onclick="clicking(this)"></td>
+                <td id="43" class="cell" onclick="clicking(this)"></td>
+                <td id="44" class="cell" onclick="clicking(this)"></td>
+                <td id="45" class="cell" onclick="clicking(this)"></td>
+                <td id="46" class="cell" onclick="clicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="51" class="cell" onclick="clicking(this)"></td>
+                <td id="52" class="cell" onclick="clicking(this)"></td>
+                <td id="53" class="cell" onclick="clicking(this)"></td>
+                <td id="54" class="cell" onclick="clicking(this)"></td>
+                <td id="55" class="cell" onclick="clicking(this)"></td>
+                <td id="56" class="cell" onclick="clicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="61" class="cell" onclick="clicking(this)"></td>
+                <td id="62" class="cell" onclick="clicking(this)"></td>
+                <td id="63" class="cell" onclick="clicking(this)"></td>
+                <td id="64" class="cell" onclick="clicking(this)"></td>
+                <td id="65" class="cell" onclick="clicking(this)"></td>
+                <td id="66" class="cell" onclick="clicking(this)"></td>
+            </tr>
+        </table>
+
+
+        <table class="table2">
+            <span class="you">Your turn : </span>
+            <span class="yourScore">Scores : </span>
+            <tr>
+                <td id="c11" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c12" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c13" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c14" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c15" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c16" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="c21" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c22" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c23" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c24" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c25" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c26" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="c31" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c32" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c33" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c34" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c35" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c36" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="c41" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c42" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c43" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c44" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c45" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c46" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="c51" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c52" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c53" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c54" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c55" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c56" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            <tr>
+                <td id="c61" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c62" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c63" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c64" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c65" class="cell1" onclick="comClicking(this)"></td>
+                <td id="c66" class="cell1" onclick="comClicking(this)"></td>
+            </tr>
+            
+        </table>
+        <div class="ftext">
+        <p class="presult"></p>
+        <p class="cresult"></p>
+        <p class="winner"></p>
+        </div>
+        <audio src="./sounds/clickCorrect.wav" id="correct"></audio>
+        <audio src="./sounds/dangerous.wav" id="dangerous"></audio>
+        <audio src="./sounds/lose.wav" id="lose"></audio>
+        <audio src="./sounds/win.mp3" id="win"></audio>
+        <script src="./Q12.js"></script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding: 0;
+}
+.header{
+    background: url(./img/quint.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rectangleLogo span{
+    font-family: 'Exo 2', sans-serif;
+}
+.topNavBar{
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+.topNavBar > .container-fluid{
+    align-items: unset !important;
+}
+.topNavBar .navbar-collapse{
+    align-items: unset !important;
+}
+.rectangleLogo{
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px black;
+}
+.content h1{
+    letter-spacing: 4px;
+    font-family: 'Habibi', serif;
+}
+.content p{
+    opacity: 0.8;
+}
+.contentBtn{
+    position: relative;
+    width: 140px;
+}
+.contentBtn button{
+    width: 140px;
+    padding: 0.6em;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: #3BB4DA;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #FFFFFF;
+}
+.contentBtn i{
+    position: absolute;
+    color: white;
+    right: 20px;
+    top: 15px;
+    font-size: 1.5em;
+}
+.animeBtn button{
+    font-size: 1.3em;
+    width: 180px;
+    font-weight: bold;
+    padding: 0.7em;
+    background-color: #3BB4DA;
+    transition: all 0.5s;
+}
+.animeBtn button:hover{
+    border: 1px solid #3BB4DA;
+    color: #3BB4DA !important;
+}
+.animeBtn input{
+    width: 210px;
+    height: 45px;
+    background-color: #3BB4DA;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #565656;
+}
+.animeBtn:last-child{
+    position: relative;
+}
+.animeBtn:last-child button{
+    position: absolute;
+    width: 100px;
+    font-size: 1.1em;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    top:0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+.trending{
+    font-family: 'Habibi', serif;
+}
+.trending + h2{
+    letter-spacing: 4px;
+    font-family: 'Habibi', serif;
+}
+.trending + h2 + p{
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+.animeSeries .h2{
+    background-color: #3BB4DA;
+    width: 230px;
+    padding: 0.4em;
+    border-radius: 15px;
+}
+.card{
+    box-shadow: 4px 4px 10px #565656;
+    border-radius: 15px;
+}
+.card .imgContainer img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+.card-body p{
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+.footer{
+    margin-top: 7em;
+    background-color: #3BB4DA;
+}
+@media screen and (max-width:390px) {
+    .animeSeries  .card {
+        width: 16em !important;
+    }
+    .animeSeries  .card .imgContainer{
+        width: 16em !important;
+        height: 230.17px !important;
+    }
+}

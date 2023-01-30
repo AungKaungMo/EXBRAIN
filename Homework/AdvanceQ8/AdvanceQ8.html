@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Method Playground</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./AdvanceQ8.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="game-bar">
+      <h1
+        data-aos="fade-right"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1000"
+      >
+        String Method Playground
+      </h1>
+      <div
+        class="input-keybord"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="600"
+        data-aos-duration="1500"
+      >
+        <p class="input-keybord-style"></p>
+      </div>
+      <div
+        class="user-input"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="1500"
+      >
+        <p>
+          Type number for
+          charAt,charCodeAt,includes,indexOf,lastIndexOf,startsWith,endsWith
+        </p>
+        <input type="text" id="user-input-number" />
+      </div>
+      <div class="changing" data-aos="zoom-in" data-aos-duration="1500">
+        <button onclick="forChange(this)" id="11">charAt()</button>
+        <button onclick="forChange(this)" id="12">charCodeAt()</button>
+        <button onclick="forChange(this)" id="13">toUpperCase()</button>
+        <button onclick="forChange(this)" id="14">toLowerCase()</button>
+        <button onclick="forChange(this)" id="15">trim()</button>
+        <button onclick="forChange(this)" id="16">includes()</button>
+        <button onclick="forChange(this)" id="17">indexOf()</button>
+        <button onclick="forChange(this)" id="18">lastIndexOf()</button>
+        <button onclick="forChange(this)" id="19">startsWith()</button>
+        <button onclick="forChange(this)" id="20">endsWith()</button>
+      </div>
+
+      <input type="checkbox" id="cap" />
+
+      <div class="keybord-container">
+        <div class="all-lines" data-aos="zoom-in" data-aos-duration="1500">
+          <button class="cap"><label for="cap">CapLock</label></button>
+
+          <button onclick="clicking(this)" id="1">1</button>
+          <button onclick="clicking(this)" id="2">2</button>
+          <button onclick="clicking(this)" id="3">3</button>
+          <button onclick="clicking(this)" id="4">4</button>
+          <button onclick="clicking(this)" id="5">5</button>
+          <button onclick="clicking(this)" id="6">6</button>
+          <button onclick="clicking(this)" id="7">7</button>
+          <button onclick="clicking(this)" id="8">8</button>
+          <button onclick="clicking(this)" id="9">9</button>
+          <button onclick="clicking(this)" id="0">0</button>
+        </div>
+
+        <div class="all-lines" data-aos="zoom-in-up" data-aos-duration="1500">
+          <button onclick="clicking(this)" id="q">q</button>
+          <button onclick="clicking(this)" id="w">w</button>
+          <button onclick="clicking(this)" id="e">e</button>
+          <button onclick="clicking(this)" id="r">r</button>
+          <button onclick="clicking(this)" id="t">t</button>
+          <button onclick="clicking(this)" id="y">y</button>
+          <button onclick="clicking(this)" id="u">u</button>
+          <button onclick="clicking(this)" id="i">i</button>
+          <button onclick="clicking(this)" id="o">o</button>
+          <button onclick="clicking(this)" id="p">p</button>
+        </div>
+
+        <div
+          class="all-lines"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
+          <button onclick="clicking(this)" id="a">a</button>
+          <button onclick="clicking(this)" id="s">s</button>
+          <button onclick="clicking(this)" id="d">d</button>
+          <button onclick="clicking(this)" id="f">f</button>
+          <button onclick="clicking(this)" id="g">g</button>
+          <button onclick="clicking(this)" id="h">h</button>
+          <button onclick="clicking(this)" id="j">j</button>
+          <button onclick="clicking(this)" id="k">k</button>
+          <button onclick="clicking(this)" id="l">l</button>
+        </div>
+
+        <div class="all-lines" data-aos="zoom-out-up" data-aos-duration="1500">
+          <button onclick="clicking(this)" id="z">z</button>
+          <button onclick="clicking(this)" id="x">x</button>
+          <button onclick="clicking(this)" id="c">c</button>
+          <button onclick="clicking(this)" id="v">v</button>
+          <button onclick="clicking(this)" id="b">b</button>
+          <button onclick="clicking(this)" id="n">n</button>
+          <button onclick="clicking(this)" id="m">m</button>
+          <button onclick="clicking(this)" id=".">.</button>
+        </div>
+
+        <div
+          class="space-bar"
+          data-aos="zoom-out-right"
+          data-aos-duration="1700"
+        >
+          <button onclick="clicking(this)" id="space"></button>
+          <button id="nth">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="./AdvanceQ8.js"></script>
+  </body>
+</html>

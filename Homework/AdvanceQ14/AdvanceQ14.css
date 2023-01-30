@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+.space {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: -1px -5px 10px rgb(121, 121, 121);
+  text-align: center;
+  padding-top: 0.7em;
+  font-size: 2em;
+}
+.balloonContainer {
+  width: 1400px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: -1500px;
+}
+.balloonContainer .ballonText {
+  position: relative;
+  margin-left: 3.5em;
+  animation: up;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.ballonText img {
+  width: 110px;
+  height: 150px;
+  transition: all 1s;
+}
+.ballonText p {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  top: 30px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+@keyframes up {
+  100% {
+    transform: translateY(-2200px);
+  }
+}

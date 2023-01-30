@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+button{
+    cursor: pointer;
+    user-select: none;
+}
+body{
+    background-color: #FFFBEB;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#randomBox{
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+.solution{
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+    width: 200px;
+}
+.lineOne, .lineTwo, .lineThree{
+    display: flex;
+}
+.lineOne div, .lineTwo div, .lineThree div{
+    width: 40px;
+    /* height: 40px; */
+    background-color: #495579;
+    padding: 1.3em;
+    margin: 0.3em;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+.winLose{
+    margin-bottom: 1em;
+}
+#replay{
+    width: 100px;
+    padding: 0.9em;
+    background-color: #495579;
+    color: white;
+    border: none;
+}

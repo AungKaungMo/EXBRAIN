@@ -1,0 +1,28 @@
+.box{
+    /* float: left;
+    width:300px;
+    height: 300px; */
+    /* border-radius: 76% 24% 59% 41% / 30% 82% 18% 70%; */
+    /* overflow: hidden; */
+    /* background-image: linear-gradient(to top left,red 30%,green 20%);nuk sone ka kg ka shae sone */
+    /* background-image: repeating-linear-gradient(to top, indigo 20%, blue 30%); */
+    /* background-image: radial-gradient(red ,black);bhyar hwt tl so tae a date pl */
+    /* background-image: repeating-radial-gradient(red 20%,black 10%); */
+    /* background-image: repeating-radial-gradient(closest-side at 100px 100px,red 10%, blue 20%);top ka ny sa p top phyar hwt tl */
+    /* background-image: conic-gradient(blue 20%, black 10%,yellow 30%, green 20%);set wine pone san */
+    /* background-image: conic-gradient(red 0deg, red 90deg, black 180deg, yellow 180deg); */
+    /* 0ka ny 90 hti py yin gyar htl mr 90 deg chr ny tl ak dr ka ayg pyay fik ml*/
+    /* background-image: conic-gradient(red 0deg,red 90deg, black 90deg, black 180deg, red 180deg, red 270deg, black 270deg); */
+    /* background-size: 50px 50px; */
+}
+.hello{
+    font-size: 50px;
+    text-shadow: 10px 10px 5px tan;/* horizontal and vertical blur color ,khan p infinity pwar loh ya*/
+}
+.text{
+
+    width: 100px;
+    height: 30px;
+    background-color: teal;
+    box-shadow: 5px 5px 5px green;/* horizontal and vertical blur color ,khan p infinity pwar loh ya*/
+}

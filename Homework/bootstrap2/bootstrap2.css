@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #03b0fa;
+}
+.nav-item button {
+  background-color: #ffc93a;
+}
+.nav-item .navActive {
+  position: relative;
+}
+.nav-item .navActive::after {
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+}
+.row .p {
+  font-family: "Habibi", serif;
+  opacity: 0.7;
+}
+.row .buttonGp button:last-child {
+  background-color: #ffc93a;
+}
+.row .buttonGp button:first-child {
+  border: 2px solid white;
+  font-family: "Kotta One", serif;
+}
+@media screen and (max-width: 1050px) {
+  .airplaneImg {
+    width: 90%;
+  }
+}
+.copy {
+  font-family: "Habibi", serif;
+}
+@media screen and (max-width: 768px) {
+  .leftDetails {
+    text-align: center;
+  }
+}

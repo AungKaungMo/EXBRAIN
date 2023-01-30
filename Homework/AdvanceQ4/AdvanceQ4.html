@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advance question 4</title>
+    <link rel="stylesheet" href="./AdvanceQ4.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="title">
+          O<span>u</span>r pr<span>o</span>du<span>c</span>t
+        </h1>
+        <div class="input-group">
+          <label for="text" class="t">Username</label><br />
+          <input
+            type="text"
+            id="text"
+            class="inputtype"
+            placeholder="Enter your name"
+          /><br />
+          <label for="password" class="t">Password</label><br />
+          <input
+            type="password"
+            id="password"
+            class="inputtypepsw"
+            placeholder="Enter your password"
+          />
+          <div class="fill">
+            Password must be 8digits.Must include[A-Z][a-z][0-9]
+          </div>
+        </div>
+        <div class="products-plan">
+          <p>Choose your products</p>
+          <label class="lab">Shoes</label>
+          <input type="radio" class="inputradio" id="check1" name="product" />
+          <label class="lab">Shirts</label>
+          <input type="radio" class="inputradio" id="check2" name="product" />
+          <label class="lab">Phones</label>
+          <input type="radio" class="inputradio" id="check3" name="product" />
+
+          <div class="pro1">
+            <img src="./img/shoes.png" class="shoe" />
+            <span class="pname">Addidas</span>
+            <img
+              src="./img/right.png"
+              class="right"
+              onclick="rightchg(this)"
+              id="right1"
+            />
+          </div>
+          <div class="pro2">
+            <img src="./img/shirt.png" class="shirt" />
+            <span class="pname">Levi</span>
+            <img
+              src="./img/right.png"
+              class="right"
+              onclick="rightchg(this)"
+              id="right2"
+            />
+          </div>
+          <div class="pro3">
+            <img src="./img/phone.png" class="phone" />
+            <span class="pname">IPhone</span>
+            <img
+              src="./img/right.png"
+              class="right"
+              onclick="rightchg(this)"
+              id="right3"
+            />
+          </div>
+        </div>
+
+        <div class="assign">
+          <button class="btn">Cancel</button>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="top">
+          <p class="add">Addidas</p>
+          <p class="add">$300</p>
+          <img src="./img/shoes.png" class="saleshoe" />
+        </div>
+        <div class="bottom">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            natus, nisi <br />
+            officiis in rem soluta quis ut cum unde accusantium?
+          </p>
+          <button class="home" id="home1" onclick="back(this)">
+            Clicke Me
+          </button>
+        </div>
+      </div>
+
+      <div class="product-container-shirt">
+        <div class="top1">
+          <p class="add1">Levi's</p>
+
+          <img src="./img/shirt.png" class="saleshirt" />
+        </div>
+        <div class="bottom">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            natus, nisi <br />
+            officiis in rem soluta quis ut cum unde accusantium?
+          </p>
+          <button class="home" id="home2" onclick="back(this)">
+            Clicke Me
+          </button>
+        </div>
+      </div>
+
+      <div class="product-container-phone">
+        <div class="custom">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+          <div class="text">IPhone 13</div>
+          <div class="forImg">
+            <img src="./img/phone.png" id="im" />
+            <span class="colorChanging1" id="1" onclick="chg(this)"></span>
+            <span class="colorChanging2" id="2" onclick="chg(this)"></span>
+            <span class="colorChanging3" id="3" onclick="chg(this)"></span>
+            <span class="colorChanging4" id="4" onclick="chg(this)"></span>
+          </div>
+        </div>
+        <div class="price">
+          <p>$1299</p>
+          <button class="home" id="home3" onclick="back(this)">
+            Clicke Me
+          </button>
+        </div>
+
+        <div class="changingPhone">
+          <img src="./img/lightgreen.png" class="chgphone1" />
+          <img src="./img/realblack.png" class="chgphone2" />
+          <img src="./img/gold.png" class="chgphone3" />
+          <img src="./img/pink.png" class="chgphone4" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./AdvanceQ4.js"></script>
+  </body>
+</html>

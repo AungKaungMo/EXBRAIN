@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/bingobg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.start button {
+  width: 160px;
+  height: 45px;
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 9px;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 4px;
+  cursor: pointer;
+  transition: all 0.7s;
+  /* display: none; */
+}
+.start button:hover {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+}
+.startChg {
+  display: none;
+}
+.sec-gp {
+  display: none;
+}
+.choose-color-gp {
+  display: flex;
+}
+.choose-color-gp .gp2,
+.choose-color-gp .gp1 {
+  text-align: center;
+}
+.choose-color-gp .gp2 {
+  margin-left: 3em;
+}
+.choose-color {
+  margin-top: 1.5em;
+  display: flex;
+  padding: 0.7em;
+  background-color: #ffebad;
+  border-radius: 20px;
+}
+.choose-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.choose-circle-active {
+  box-shadow: inset -1px -2px 8px black;
+  width: 90px;
+  height: 90px;
+  margin-top: -4px;
+}
+#color1 {
+  background-color: #db996c;
+}
+#color2 {
+  background-color: #00005c;
+}
+#color3 {
+  background-color: #285430;
+}
+#color4 {
+  background-color: #EA047E;
+}
+#color5 {
+  background-color: #472d2d;
+}
+#color6 {
+  background-color: #6e7da2;
+}
+#color7 {
+  background-color: #863A6F;
+}
+#color8 {
+  background-color: #c69749;
+}
+#color9 {
+  background-color: #eb1d36;
+}
+#color10 {
+  background-color: #76ba99;
+}
+.user-choose-color {
+  text-align: center;
+  margin-top: 3em;
+  opacity: 0;
+  transform: translateY(1000px);
+  transition: all 1s;
+}
+.userColorChooseChg {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.user-choose-color button {
+  width: 180px;
+  height: 50px;
+  font-size: 1.3em;
+  letter-spacing: 4px;
+  border-radius: 20px;
+  border: 2px solid blue;
+  background-color: transparent;
+  font-weight: bold;
+  background-color: transparent;
+  color: blue;
+  cursor: pointer;
+  transition: all 0.6s linear;
+}
+.user-choose-color button:hover {
+  background-color: blue;
+  color: white;
+}
+.ChoosePlayers {
+  display: none;
+}
+.ChoosePlayers button {
+  width: 180px;
+  height: 45px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  transition: all 0.7s;
+}
+.ChoosePlayersChg {
+  display: block;
+}
+.ChoosePlayers button:hover {
+  box-shadow: 2px 2px 10px blue;
+}
+.ChoosePlayers button:last-child {
+  margin-left: 3em;
+}
+
+.two-player-game {
+  display: none;
+}
+
+.all-container {
+  border-radius: 13px;
+  background-color: #7fe9de;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  box-shadow: 1px 1px 14px #fff6bf;
+}
+.circle-container {
+  display: flex;
+}
+.circle-container .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ffebad;
+  margin: 0.5em;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#turn {
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+#win {
+  text-align: center;
+  margin-top: 1.4em;
+}

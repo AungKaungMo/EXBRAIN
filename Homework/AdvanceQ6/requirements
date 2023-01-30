@@ -1,0 +1,23 @@
+DREAMING
+ Font family Pacifico
+
+Home,account,service,Support
+ Font family Road Rage
+
+Login
+Font family Roboto Mono
+bgColor : #7E759F
+
+
+Body Background
+bgColor #46485D
+
+Explore
+bgColor #5772FF
+
+Footer
+bgColor #53567B
+
+
+<ion-icon name="reorder-three-outline"></ion-icon>
+<ion-icon name="close-outline"></ion-icon>

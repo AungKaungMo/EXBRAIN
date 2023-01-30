@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question 9</title>
+    <link rel="stylesheet" href="./Q10.css" />
+  </head>
+  <body>
+    <!--  header  -->
+    <div class="header">
+      <div class="score">
+        Score :
+        <span id="getScore">0</span>
+      </div>
+
+      <div class="time">
+        Time :
+        <span id="getTime">0</span>
+      </div>
+
+      <div class="start">
+        <button class="startbtn btnColor" id="start" onclick="start()">
+          Start
+        </button>
+      </div>
+    </div>
+    <!--  Content  -->
+    <div class="Content">
+      <p class="contentText" id="Addition">=</p>
+
+      <button class="btn1 btn1Color"  onclick="check(this)" disabled>
+        <span id="answer1" class="number"></span> 
+      </button>
+      <button class="btn1 btn1Color"   onclick="check(this)" disabled>
+         <span id="answer2" class="number"></span> 
+      </button>
+      <button class="btn1 btn1Color" onclick="check(this)" disabled>
+         <span id="answer3" class="number"></span> 
+      </button>
+    </div>
+    <!--  Footer  -->
+    <div class="footer">
+      <button class="btnStop btnStopColor" id="stop" onclick="stop()" disabled>
+        Stop
+      </button>
+    </div>
+    <p><b>History</b></p>
+    <p id="result"></p>
+
+    <script src="./Q10.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 9</title>
+        <link rel="stylesheet" href="./Q9.css">
+    </head>
+    <body>
+            <!--  header  -->
+        <div class="header">
+          
+            <div class="score">Score : 
+                <span id="getScore">0
+            </div>
+
+            <div class="time">Time :
+                <span id="getTime">0
+            </div>
+            
+            <div class="start">
+            <button class="startbtn btnColor" id="start" onclick="start()">Start</button>
+        </div>
+        </div>
+        <!--  Content  -->
+    <div class="Content">
+        <p class="contentText">Which one is big?</p>
+      
+            <button class="btn1 btn1Color" id="btn1" onclick="check1()"  disabled>
+                <span id="num1" class="number">
+            </button>
+            <button class="btn2 btn2Color" id="btn2" onclick="check2()" disabled>
+            <span id="num2" class="number">
+            </button>
+        
+       
+    </div>
+        <!--  Footer  -->
+    <div class="footer">
+        <button class="btnStop btnStopColor" id="stop" onclick="stop()" disabled>Stop</button>
+    </div>
+    <p><b>History</b></p>
+    <p id="result"></p>
+   
+
+        <script src="./Q9.js"></script>
+    </body>
+</html>

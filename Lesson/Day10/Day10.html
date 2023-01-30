@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!-- <div id="box1" onclick="divClick(1)">
+        A
+        </div>
+        <div id="box2" onclick="divClick(2)">
+        B
+        </div> -->
+
+        <!--  This  -->
+
+        <div onclick="divClick(this)">
+            A
+            </div>
+            <div onclick="divClick(this)">
+                B
+                </div>
+                <div onclick="divClick(this)">
+                    C
+                    </div>
+                    <div onclick="divClick(this)">
+                        D
+                        </div>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)"
+onmousedown="mDown(this)"
+onmouseup="mUp(this)">
+Mouse over me</div>
+    
+
+<label>Name : </label>
+<input type="text" onkeydown="myFunction(this)">
+<input type="text" onkeyup="myFunction(this)">
+<p id="demo"></p>
+    <script src="./Day10.js"></script>
+    </body>
+</html>

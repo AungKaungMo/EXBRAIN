@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bingo Game</title>
+    <link rel="stylesheet" href="./AdvanceQ9.css" />
+  </head>
+  <body>
+    <div class="bingo-game">
+      <div class="start">
+        <button class="start-btn">PLAY</button>
+      </div>
+      <div class="sec-gp">
+        <div class="choose-color-gp">
+          <div class="gp1">
+            <h2>Choose player1's color</h2>
+            <div class="choose-color">
+              <div
+                class="choose-circle"
+                data-color="#DB996C"
+                id="color1"
+                onclick="Choose1(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#00005C"
+                id="color2"
+                onclick="Choose1(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#285430"
+                id="color3"
+                onclick="Choose1(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#EA047E"
+                id="color4"
+                onclick="Choose1(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#472D2D"
+                id="color5"
+                onclick="Choose1(this)"
+              ></div>
+            </div>
+          </div>
+
+          <div class="gp2">
+            <h2>Choose player2's color</h2>
+            <div class="choose-color">
+              <div
+                class="choose-circle"
+                data-color="#6E7DA2"
+                id="color6"
+                onclick="Choose2(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#863A6F"
+                id="color7"
+                onclick="Choose2(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#C69749"
+                id="color8"
+                onclick="Choose2(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#EB1D36"
+                id="color9"
+                onclick="Choose2(this)"
+              ></div>
+              <div
+                class="choose-circle"
+                data-color="#76BA99"
+                id="color10"
+                onclick="Choose2(this)"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="user-choose-color">
+          <button class="submit">Let's Play</button>
+        </div>
+      </div>
+
+      <div class="ChoosePlayers">
+        <button class="comp">Computer</button>
+        <button class="TwoPlayer">2 Player</button>
+      </div>
+
+      <div class="two-player-game">
+        <h2 id="turn">Player1's turn</h2>
+        <div class="all-container">
+          <div class="circle-container">
+            <div class="circle" id="0,0" onclick="change(this)"></div>
+            <div class="circle" id="0,1" onclick="change(this)"></div>
+            <div class="circle" id="0,2" onclick="change(this)"></div>
+            <div class="circle" id="0,3" onclick="change(this)"></div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" id="1,0" onclick="change(this)"></div>
+            <div class="circle" id="1,1" onclick="change(this)"></div>
+            <div class="circle" id="1,2" onclick="change(this)"></div>
+            <div class="circle" id="1,3" onclick="change(this)"></div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" id="2,0" onclick="change(this)"></div>
+            <div class="circle" id="2,1" onclick="change(this)"></div>
+            <div class="circle" id="2,2" onclick="change(this)"></div>
+            <div class="circle" id="2,3" onclick="change(this)"></div>
+          </div>
+
+          <div class="circle-container">
+            <div class="circle" id="3,0" onclick="change(this)"></div>
+            <div class="circle" id="3,1" onclick="change(this)"></div>
+            <div class="circle" id="3,2" onclick="change(this)"></div>
+            <div class="circle" id="3,3" onclick="change(this)"></div>
+          </div>
+        </div>
+        <h2 id="win"></h2>
+      </div>
+    </div>
+
+    <script src="./AdvanceQ9.js"></script>
+  </body>
+</html>

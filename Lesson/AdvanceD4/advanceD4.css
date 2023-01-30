@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+span[class ^= "text"]{/*classs ka text fik ka ml spam fik ka ml*/
+    color:gray;
+}
+span[class |= "text"]{/*class ka span fik ml class ka text nk sa ml p yin - pr ya ml*/
+    color: red;
+}
+/* span[class $= "text"]{
+    color: red;
+}text nk asone tt ya ml  */
+/* [class]{
+    color: lavender;
+}class pr tae hr akone pyg */
+
+/* a[href $= "mm"]{
+    color: rebeccapurple;
+}href mhr mm nk sone tr ty akone mi ml end with */
+
+/* a[href *= "goo"]{
+    goo pr thw sr mhan tamya akone mi tl
+    color: green;
+} */
+
+/* span[class ~= "text"]{
+    color:blue;
+}te chr se shi ny tae sakar lone gyar htl mr space khn p nuk talone yay loh top ya */
+

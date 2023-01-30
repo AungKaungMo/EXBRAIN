@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <!----------------------  Font awesome  ------------------------------------->
+    <script
+    src="https://kit.fontawesome.com/de471be2d6.js"
+    crossorigin="anonymous"
+  ></script>
+  
+    <link rel="stylesheet" href="./currencyExchange.css">
+    <script src="./Jquery/jquery3.6.0.js"></script>
+    <script src="./currencyExchange.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="containerBox">
+            <h2>Currency Exchange</h2>
+            <div class="inputBoxes">
+                <div class="currencyBoxOne">
+                <select id="currencyExchangeValueOne">
+                    <!-- <option value="select">Selected</option> -->
+                   
+                    </select>
+                </div>
+                <div class="ic">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+                <div class="currencyBoxTwo">
+                    <select id="currencyExchangeValueTwo">
+                        <!-- <option value="select">Selected</option> -->
+                        
+                        <!-- <option value="">USD &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A</option> -->
+                    </select>
+                </div>
+            </div>
+            <div class="inputValueBox">
+                <p>Input Amount</p>
+                <input type="text" id="inputValue">
+            </div>
+            <div class="showValue">
+                <h4 id="showValues">1 USD = 2100 MMk</h4>
+            </div>
+            <div class="btn">
+                <button id="exChange">Exchange</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

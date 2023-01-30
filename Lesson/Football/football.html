@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Players</title>
+        <script src="./jquery3.6.0.js"></script>
+        <script src="./script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <select id="continent">
+                <option value="">Choose Contient</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+
+            <select id="country">
+                <option value="" selected disabled>Choose Country</option>
+                
+            </select>
+
+            <label for="min">Min Age:</label>
+            <input type="text" id="min">
+            <label for="max">Max Age:</label>
+            <input type="text" id="max">
+            <button id="search">Search Players</button>
+        </div>
+        <br>
+        <table border="1" id="table">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Birthday</th>
+                <th>Height</th>
+                <th>Player ID</th>
+                <th>Weight</th>
+            </tr>            
+        </table>
+    </body>
+
+</html>

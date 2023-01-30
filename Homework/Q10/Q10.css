@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+}
+.score{
+    float: left;
+    margin-top:20px;
+    margin-left: 40px;
+}
+.time{
+    float: right;
+    margin-top:20px;
+    margin-right: 40px;
+
+}
+.start , .footer{
+    text-align: center; 
+}
+.startbtn , .btnStop{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 12px;
+    width: 40%;
+    font-size: 18px;
+    color: white;
+}
+.btnColor{
+    background-color: green;
+    border-color: green;
+}
+.activeBtnColor{
+    background-color: gray;
+    border-color: gray;
+}
+.Content{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+.contentText{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    width: 150px;
+    border-radius: 10px;
+    height: 170px;
+}
+.btn1Color{
+    background-color: gray;
+}
+.btn1ChangeColor{
+    background-color: rgb(19, 131, 223);
+}
+.number{
+    font-size: 18px;
+}
+.btnStopColor{
+    background-color: gray;
+}
+.activeBtnStopColor{
+    background-color: red;
+}

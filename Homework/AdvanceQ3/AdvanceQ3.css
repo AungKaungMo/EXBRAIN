@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(./img/underwater.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.logo {
+  width: 8%;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.sign {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 17px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: antiquewhite;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s;
+}
+.form {
+  width: 280px;
+  height: 400px;
+  background-color: #eff3f5;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 19px;
+  box-shadow:10px 9px 21px -3px rgba(0,0,0,1);
+}
+.sign-in {
+  width: 100px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 18px;
+  background-color: rgb(116, 170, 240);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s;
+}
+.sign-up {
+  width: 100px;
+  margin-top: 20px;
+  height: 30px;
+  position: absolute;
+  border-radius: 19px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s;
+}
+.form-input {
+  position: relative;
+}
+.Login {
+  margin-top: 40px;
+  margin-left: 20px;
+  opacity: 1;
+  position: absolute;
+  transition: all 1s;
+}
+.login-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(116, 170, 240);
+}
+.name {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+.btn-sign {
+  width: 150px;
+  height: 30px;
+  margin-left: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.btn-sign:hover {
+    background-color: rgb(116, 170, 240);
+  /* background-color: rgb(13, 120, 182); */
+  color: white;
+  border: none;
+}
+.register {
+  position: absolute;
+  right: -300px;
+  opacity: 0;
+  top: 20px;
+  transition: all 1s;
+}
+.registerChg {
+  opacity: 1;
+  transform: translateX(-350px);
+}
+.registerBtnColor {
+    background-color: rgb(116, 170, 240);
+  color: white;
+}
+.loginChg {
+  opacity: 0;
+  transform: translateX(300px);
+}
+.loginBtnColor {
+  background-color: white;
+  color: black;
+}
+.content {
+  margin-top: 120px;
+  margin-left: 40px;
+  color: white;
+}
+.title {
+  font-size: 40px;
+}
+.text {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.close {
+  position: absolute;
+  top: -8px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 3px;
+  right: 0;
+  /* top:75px; */
+  /* right:253px; */
+  z-index: 1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.close:hover {
+  background-color: #81c6e8;
+}
+.closeChg {
+  display: block;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 350px;
+  width: 150px;
+  height: 30px;
+  border-radius: 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(60, 60, 177);
+  border: none;
+}
+.sign:hover {
+  background-color: white;
+  color: rgb(54, 54, 163);
+  border: none;
+}
+.fish1 {
+  position: absolute;
+  width: 10%;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+}
+.fish2 {
+  position: absolute;
+  width: 10%;
+  animation-name: move1;
+  right: 0;
+  top: 0;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+.fish3 {
+  position: absolute;
+  width: 20%;
+  top: 70px;
+  animation-iteration-count: infinite;
+  animation-name: move2;
+  animation-duration: 9s;
+}
+.jellyfish {
+  position: absolute;
+
+  width: 30%;
+  animation-duration: 10s;
+  animation-name: move3;
+  animation-iteration-count: infinite;
+}
+.shark {
+  width: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+.bubbles img {
+  width: 40px;
+  animation-name: move4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.bubbles {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -30px;
+}
+.bubble1 {
+  animation-delay: 1s;
+}
+.bubble2 {
+  animation-delay: 3s;
+}
+.bubble3 {
+  animation-delay: 4s;
+}
+.bubble4 {
+  animation-delay: 7s;
+}
+.bubble5 {
+  animation-delay: 3s;
+}
+.bubble6 {
+  animation-delay: 5s;
+}
+.bubble7 {
+  animation-delay: 8s;
+}
+@keyframes move {
+  0% {
+    left: -140px;
+  }
+  25% {
+    transform: translateY(100px);
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes move1 {
+  0% {
+    right: -30px;
+  }
+  25% {
+    transform: translateY(200px);
+  }
+
+  75% {
+    transform: translateX(100px);
+  }
+  100% {
+    right: 100%;
+  }
+}
+@keyframes move2 {
+  0% {
+    left: -50px;
+    transform: rotate(30deg);
+  }
+  25% {
+    transform: translateY(100px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(100px) rotate(30deg);
+  }
+  75% {
+    transform: translate(100px) rotate(20deg);
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes move3 {
+  0% {
+    left: -190px;
+  }
+  10% {
+    transform: translateY(-100px);
+  }
+  25% {
+    transform: translateY(-200px);
+  }
+  50% {
+    transform: translateY(-300px);
+  }
+  75% {
+    transform: translateY(-400px);
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes move4 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+}

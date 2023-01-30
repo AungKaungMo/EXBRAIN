@@ -2,3 +2,21 @@ Level tu yin ./
 level ma tu bu so yin./ folderName/
 folder2 ku lone ma tu bu so yin ../folderName/
 <a href target="_blank"></a> new tab any nk paw lr //_self ka default tan bhoe
+
+SEO -> searcg engine optomization
+koh yae page ko apaw sone mhar pw chin yin thone tae technice
+<meta name="smth" content="lorem">
+name ny yr ka goolge mhr yike shr yin title
+title out mr content out yay tae sr thr pw
+
+
+<meta http-equiv="refresh" content="3">
+3s takhr koh website ka refresh fik ny tl
+
+
+<meta http-equiv="refresh" content="3;url=https://www.google.com">
+3s kyr tr nk url website ko refresh loke p pyn twr py tl
+
+<meta name="keywords" content="HTML, CSS,smth">
+search bar mhr html css or smth loh yike shr yin ll koh website ko kya lr ag key htae py tae thabaw
+

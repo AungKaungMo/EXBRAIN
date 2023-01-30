@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    hsla(217, 100%, 50%, 1) 0%,
+    hsla(186, 100%, 69%, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  background-color: #fefbf6;
+  width: 350px;
+  height: 350px;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  position: relative;
+}
+.card .color1 {
+  background-color: #60efff;
+  border-radius: 0% 0% 70% 11% / 10% 15% 100% 10%;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  height: 120px;
+  left: -140px;
+  transform: rotate(340deg);
+}
+.endingDisplay {
+  width: 200px;
+  height: 220px;
+  background-color: #fefbf6;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+.showCorrectWord,
+.showWrongWord,
+.showScores {
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+.replay {
+  width: 100px;
+  padding: 0.8em;
+  background: linear-gradient(
+    90deg,
+    hsla(186, 100%, 69%, 1) 0%,
+    hsla(217, 100%, 50%, 1) 100%
+  );
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+.card .color2 {
+  border-radius: 59% 0% 1% 0% / 68% 19% 87% 28%;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  background-color: #0061ff;
+  bottom: -10px;
+  right: -120px;
+  transform: rotate(331deg);
+}
+.typingContainer {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+}
+.typingContainer h2 {
+  margin-bottom: 1.5em;
+  position: relative;
+}
+.typingContainer h2::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    hsla(186, 100%, 69%, 1) 0%,
+    hsla(217, 100%, 50%, 1) 100%
+  );
+  position: absolute;
+  bottom: -9px;
+  left: 30%;
+}
+.checkDis,
+.timeScore {
+  font-size: 1.4em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.5em;
+}
+.timeScore {
+  margin-top: 3.7em;
+}
+.checkDis .correct,
+.timeScore .time {
+  margin-left: 0.4em;
+}
+.checkDis .wrong,
+.timeScore .scores {
+  margin-right: 0.4em;
+}
+.userTypingBox {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+}
+.userTypingBox span {
+  margin-top: 0.5em;
+}
+.userTypingBox .userTypeText {
+  width: 200px;
+  border: 1px solid black;
+  height: 34px;
+  text-align: center;
+  font-size: 1.3em;
+  margin-right: 0.8em;
+}
+
+.typeText {
+  font-size: 2em;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.typeTextCorrect {
+  animation-name: cor1;
+  animation-duration: 0.5s;
+  /* animation-iteration-count: infinite; */
+}
+.typeTextWrong {
+  animation-name: cor2;
+  animation-duration: 0.5s;
+}
+@keyframes cor1 {
+  100% {
+    transform: translate(-150px, -200px) rotate(360deg);
+    opacity: 0;
+  }
+}
+@keyframes cor2 {
+  100% {
+    transform: translate(150px, -200px) rotate(360deg);
+    opacity: 0;
+  }
+}

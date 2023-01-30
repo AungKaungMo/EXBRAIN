@@ -1,0 +1,64 @@
+// ture = 1
+// false,null,"" = 0
+// undefined = NaN
+
+
+		Regular Expression
+
+result = text.match(/^is/m) //m nk sa ml so "^" dr ly htae ya i doh g doh so ma lo
+^means htape sone salone nk sa ya ml "this" so ma ya
+text.match(/r..t/g); //r nk sa ya ml any character 2 lone lr ya ml t nk sone ya ml
+(r.*d) so r nk sa p d nk sone tr nk ya 0 or more kyk tr lr loh ya
+[ma+n] so + yae left side ka salone talone top anel sone pr ya ml p top n lr ka ml 
+"?" means 0 or 1  
+text.match(/a{2,3}/g); // a nk sa p a ket hlyat 2 lone ka ny 3 lone hti pr ya ml
+CARROT ka square bracket htl pr ml so adate pl pyg twr ml eg.(/[^0-9]/); // 0 to 9 ma pr ya bu so tae adate pl fik twr tl 
+
+		Name in regular expression
+^ Caret
+    . period
+    $ Dollar 
+    [] Squear Bracket
+    * Star 
+    + Plus 
+    ? Question mark
+    { min, max } Braces
+    () Group 
+    | Alternation 
+    \ Backslash
+    g (GLOBAL MATCH SEARCH)
+    i    (IGNORE CASE-SENSITIVE)
+    m	(MULTI LINE MATCH)
+
+btoa() => base 64 logic nk encode phay py tl
+atob() => lat khn ya shi tae thu bet ka decode loke p pyn phay cha ya
+moveTo() ka ta kyein pl aloke loke
+moveBy() ka amyl tan aloke loke py tl
+
+mouseover vs mouseEnter 
+
+over ka parent htl ko win yin tin ma ka child htl win ll effect htet fik
+enter ka parent ko pl win tr thi tl child atwat ma thi bu
+
+mousedown vs mouseLeave ll atutu pl
+
+
+		Typography(Boostrap)			
+
+div ko thone chin tl h1 effect ty ll akone lo chint tl so yin <div class="h1">ABC</div>
+h1 htet kye tae tab ka display<div class="display-6">a</div> 6 ka akye sone 1 ka angal sone
+
+p class ty ko po kg kg ly yay chin tl so <p class="lead">ALEIFN IF</p>
+keyBoard key ty ko thi thr sy chin yin <kbd>A</kbd>ko thone tl
+kbd means keyBoardDescription
+
+text-align asr class="text-center" ko thone ll ya 
+text-end so nyr bet text-start so bel bet
+
+Primary  : Red,Yellow.Blue
+Secondary : Green,Orange,Violet
+Terinery : R-O,R-V,Y-O,Y-G,B=G,B-V
+
+
+
+

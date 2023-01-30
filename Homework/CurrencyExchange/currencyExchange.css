@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.container{
+    width: 300px;
+    height: 310px;
+    background-color: black;
+    box-shadow: 10px 10px 17px rgb(41, 41, 41), -10px -10px 17px rgb(41, 41, 41);
+}
+.containerBox{
+    text-align: center;
+    padding-top: 1em;
+}
+.containerBox .inputBoxes{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.currencyBoxOne select, .currencyBoxTwo select{
+    /* margin-left: 1em; */
+    width: 100px;
+    height: 35px;
+}
+.currencyBoxTwo select{
+    margin-left: 1em;
+}
+.currencyBoxTwo select option{
+    margin-right: 1em;
+}
+.inputValueBox p{
+    letter-spacing: 3px;
+    margin-bottom: 0.8em;
+}
+.inputValueBox input{
+    width: 230px;
+    height: 30px;
+    padding-left: 0.8em;
+    margin-bottom: 1em;
+}
+.btn{
+    margin-top: 1em;
+}
+.btn button{
+    width: 150px;
+    padding: 0.5em;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ic{
+    margin-top: 0.6em;
+    margin-left: 0.8em;
+}

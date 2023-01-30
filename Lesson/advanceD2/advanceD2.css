@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.parent{
+    margin: 100px;
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.box{
+    width:200px;
+    height: 200px;
+    background-color: tomato;
+    transition: all 2s;
+    transform-origin: top right;
+    /*top right ma pyy pl 50px 50px so x nk y yae sone tae ny yr */
+}
+.box:hover{
+    transform: rotate(90deg);
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    /* transition-delay: 2s ;cht chin aloke ma lok py tae s kyr mha aloke loke hover hloot yin ll py tae s kyr p mha alok lok tl */
+    /* transition-duration: 2s;p tae hti 2s kyr tl */
+    transition-property: width;/*width taku ko pl smooth fik ag loke ml so tae tabaw*/
+
+}
+.box1:hover{
+    width: 400px;
+    background-color: teal;
+}
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+    transition-delay: 0s;
+    transition-duration: 3s;
+    transition-property: all;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.easein{
+    transition-timing-function: ease-in;
+}
+.easeout{
+    transition-timing-function: ease-out;
+}.easeinout{
+    transition-timing-function: ease-in-out;
+}
+.parent1:hover .box3{
+    width: 400px;
+}
+.b{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+    transition: width 2s ease-in 2s;
+
+}
+.b:hover{
+    width: 400px;
+    background-color: rgb(42, 42, 85);
+}
+.bo{
+    width: 330px;
+    height: 500px;
+    margin: 80px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 11px 16px 23px 16px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.bubble{
+    width: 330px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 61% 39% 100% 0% / 0% 0% 100% 100%;
+    /* overflow: hidden; */
+    transition: all 1s;
+    padding: 15px;
+}
+.bo:hover .bubble{
+    border-radius: 100% 0% 36% 64% / 0% 70% 30% 100%;
+}
+.price{
+    font-size: 22px;
+}
+.shoe{
+    font-size: 26px;
+    transition: all 2s;
+}
+.des{
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    opacity: 0.7;
+}
+.bo:hover .shoe{
+    transform: translateY(180px);
+    color: white;
+}
+.buy{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+}
+.bo:hover .buy{
+    transform: translateX(100px);
+}
+img{
+    width: 70%;
+    margin-left: 80px;
+    transform: translateY(-50px) ;
+}

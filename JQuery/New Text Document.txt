@@ -1,0 +1,2 @@
+option mhr selet loke tae sr thr ko myin chin yin
+("#id option:selected").text();

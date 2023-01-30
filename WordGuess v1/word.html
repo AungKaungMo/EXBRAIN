@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>word</title>
+
+    <!----------------------  Font awesome  ------------------------------------->
+    <script
+      src="https://kit.fontawesome.com/de471be2d6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./word.css" />
+  </head>
+  <body>
+    <div class="top-container">
+      <div class="level">
+        <p id="currentLevel">Level : 1</p>
+      </div>
+      <div class="setting">
+        <i class="fa-sharp fa-solid fa-coins">
+          <span id="showCoins">0 coin</span></i
+        >
+      </div>
+    </div>
+    <div class="middle-container">
+      <div class="hintImageOne">
+        <img src="./img/woodBg.jpg" id="image1" />
+        <img src="./img/woodBg.jpg" id="image2" />
+      </div>
+      <div class="hintImageTwo">
+        <img src="./img/woodBg.jpg" id="image3" />
+        <img src="./img/woodBg.jpg" id="image4" />
+      </div>
+    </div>
+    <div class="bottom-Container">
+      <!-- <div class="blankSpace">
+            
+        </div>
+        <div class="showButton">
+        
+        </div> -->
+    </div>
+    <div class="someIcons">
+      <i class="fa-solid fa-trash" id="delete"></i>
+      <i class="fa-solid fa-pen-to-square" id="hint"></i>
+    </div>
+    <div class="winBox">
+      <div class="boxContainer">
+        <h3 id="pass">Level 1 pass</h3>
+        <i class="fa-sharp fa-solid fa-coins"> <span id="getCoins"> </span></i
+        ><br />
+        <button id="nextLevel">Ok</button>
+      </div>
+    </div>
+    <div class="finishBox">
+      <h2>Congratulations</h2>
+      <i class="fa-solid fa-reply" id="reply"></i>
+    </div>
+
+    <audio src="./sound/click.wav" id="clicking"></audio>
+    <audio src="./sound/winState.wav" id="win"></audio>
+    <audio src="./sound/wrong-buzzer-6268.mp3" id="clickWrong"></audio>
+    
+    <script src="./word.js"></script>
+  </body>
+</html>

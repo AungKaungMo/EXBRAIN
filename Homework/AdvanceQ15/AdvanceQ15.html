@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+
+     <!----------------------  Font awesome  ------------------------------------->
+     <script
+     src="https://kit.fontawesome.com/de471be2d6.js"
+     crossorigin="anonymous"
+   ></script>
+
+   <!------------------------   CSS   ------------------------------>
+    <link rel="stylesheet" href="./AdvanceQ15.css">
+
+    <!----------------------   JQUERY   -------------------------------->
+    <script src="./Jquery/jquery3.6.0.js"></script>
+
+
+    <script src="./AdvanceQ15.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="leftContainer">
+            <h2>Product management for Online Sales</h2>
+            <div class="detailsContainer">
+                <!-- <form> -->
+                <div class="nameItems">
+                <label for="name">Item Name</label><br>
+                <input type="text" id="name" required>
+                </div>
+                <div class="ProductItems">
+                    <label for="Product">Product</label><br>
+                    <select id="Product">
+                    <option value="hoodie">Hoodie</option>
+                    <option value="bag">Bag</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="shirt">Shirt</option>
+                    <!-- <option value="trouser">Trouser</option> -->
+                </select>
+                    </div>
+                    <div class="PriceItems">
+                        <label for="Price">Price</label><br>
+                        <input type="text" id="Price" required>
+                        </div>
+                        <div class="ratingStars">
+                            <label for="Rating">Rating</label><br>
+                            <input type="text" id="Rating" placeholder="eg. 1 to 5(stars)" required>
+                            </div> 
+                            <div class="discounts">
+                                <label for="discount">Discount</label><br>
+                                <input type="text" id="discount" placeholder="eg. 20%" required>
+                                </div> 
+                            <div class="productDetails">
+                                <label for="pdetails">Details</label><br>
+                                <textarea required id="details"></textarea>
+                            </div>
+                            <div class="addBtn">
+                                <button id="add">Add</button>
+                            </div>
+                        <!-- </form> -->
+            </div>
+        </div>
+        <div class="rightContainer">
+            <div class="allShopcontainer">
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>

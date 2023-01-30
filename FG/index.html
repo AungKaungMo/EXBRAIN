@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime web</title>
+
+    <!--------------------------  GOOGLE FONTS  --------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,500&family=Habibi&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!----------------------  Font awesome  ------------------------------------->
+    <script src="https://kit.fontawesome.com/de471be2d6.js" crossorigin="anonymous"></script>
+
+     <!------------------------  BOOTSTRAP  --------------------------------------------->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./jquery3.6.0.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    
+    <div class="container-fluid header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary topNavBar mb-5">
+            <div class="container-fluid pt-4">
+              <a class="navbar-brand ms-sm-5 sm-2 " href="#">
+                <div class="rectangleLogo bg-white">
+                    <img src="./img/logoc.png">
+                    <span class="fw-bold fs-sm-3 fs-5 fst-italic me-sm-4 me-2">CC Double</span>
+                </div>
+              </a>
+              <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-3 me-5 mb-2 mb-lg-0">
+                  <li class="nav-item fs-4 fw-bold me-5">
+                    <a class="nav-link active text-decoration-underline" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item fs-4 fw-bold me-5">
+                    <a class="nav-link active" href="#">Contact Us</a>
+                  </li>
+                
+                  <li class="nav-item fs-4 fw-bold me-5 pe-5">
+                    <a class="nav-link active">About Site</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+
+          <div class="content mt-5 me-5 pt-sm-5 row">
+            <div class="col-lg-6 offset-lg-6 col-12 ">
+            <h1 class="fw-bold display-sm-5 display-6 mb-5 ms-lg-0 ms-sm-5 ms-3">Weathering With You</h1>
+            <p class="fs-sm-5 fs-6 ms-lg-0 ms-5">Lorem ipsum dolor sit amet consectetur. Dis sagittis vulputate mi vel at nibh at.
+                 Massa habitasse id ante interdum sed. Mattis magna eu aliquam tellus hendrerit d ante interdum sed. Mattis
+                 praesent aliquet lectus proin. </p>
+            <div class="contentBtn mt-4 ms-lg-0 ms-5">
+                <button class="btn">Watch </button>
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+        </div>
+          </div>
+    </div>
+
+            <div class="container-fluid mt-3 d-flex justify-content-around flex-wrap">
+                <div class="animeBtn mb-3">
+                    <button class="btn text-white">ONGOING</button>
+                </div>
+                <div class="animeBtn mb-3"> 
+                    <button class="btn text-white">Anime Series</button>
+                </div>
+                <div class="animeBtn mb-3">
+                    <button class="btn text-white">Anime Movies</button>
+                </div>
+                <div class="animeBtn mb-3">
+                    <button class="btn text-white">Genres</button>
+                </div>
+                <div class="animeBtn mt-2 mb-3">
+                    <input type="text" class="ps-3" placeholder="Search...">
+                    <button class="btn pt-1">Search</button>
+                </div>
+            </div>
+            
+            <div class="container-fluid row mt-5 mx-3 pt-5">
+                <div class="col-md-6 col-12">
+                <p class="mb-0 fw-bold fs-5 trending">Trending Anime</p>
+                <h2 class="fw-bold mb-3">Weathering With You</h2>
+                <p class="ms-3">Lorem ipsum dolor sit amet consectetur. Dis sagittis vulputate mi vel at nibh at. Massa habitasse id ante interdum sed. Mattis magna eu aliquam tellus hendrerit praesent aliquet lectus proin. Malesuada leo lacus non mi sed ultricies mi felis scelerisque. Nibh feugiat consectetur malesuada volutpat urna enim euismod. Suspendisse rutrum commodo turpis diam.</p>
+                <a href="#" class="ms-3 fs-4">Go to watch...</a>
+            </div>
+            <div class="col-md-4 offset-md-1 col-12 d-flex justify-content-center mt-md-0 mt-5">
+                <img src="./img/weatheringwithu.png" height="400px">
+            </div>
+            </div>
+
+                                <!------------------   ONGOING  -------------------------------------->
+            <div class="container-fluid animeSeries mt-5 pt-5">
+                <div class="h2 text-center m-auto fw-bold text-white mb-5">ONGOING</div>
+                <div class="row ms-md-3">
+                    <div class="col-xl-4 m-auto col-md-6 col-12 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/kageno.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">Kage no Jitsuryokusha</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 m-auto col-md-6 col-12 mt-5 mt-md-0 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/tomochan.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">Tomo-chan wa Onnanoko!</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 m-auto  mt-5 mt-xl-0 col-12 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/itou.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">Itou Junji: Maniac</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+                                     <!------------------   Anime Series  -------------------------------------->
+            <div class="container-fluid animeSeries mt-5 pt-5">
+                <div class="h2 text-center m-auto fw-bold text-white mb-5">Anime Series</div>
+                <div class="row ms-md-3">
+                    <div class="col-xl-4 m-auto col-md-6 col-12 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/nautro.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">Naruto</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 m-auto col-md-6 col-12 mt-5 mt-md-0 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/aot.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">Attack On Titan</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 m-auto  mt-5 mt-xl-0 col-12 d-flex justify-content-center d-md-block">
+                        <div class="card ms-4" style="width: 20em;">
+                            <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                <img src="./img/onepeice.png" class="card-img-top" width="100%" height="100%">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title fw-bold fs-4">One Piece</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                             <div class="icons d-flex justify-content-between">
+                                <div class="left">
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-eye fs-5"></i>
+                                    <span>1.2k</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="">Go to watch...</a>
+                                </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                                     <!------------------   Anime Series  -------------------------------------->
+                                     <div class="container-fluid animeSeries mt-5 pt-5">
+                                        <div class="h2 text-center m-auto fw-bold text-white mb-5">Anime Movies</div>
+                                        <div class="row ms-md-3">
+                                            <div class="col-xl-4 m-auto col-md-6 col-12 d-flex justify-content-center d-md-block">
+                                                <div class="card ms-4" style="width: 20em;">
+                                                    <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                                        <img src="./img/yourname.png" class="card-img-top" width="100%" height="100%">
+                                                    </div>
+                                                    <div class="card-body">
+                                                      <h5 class="card-title fw-bold fs-4">Your Name</h5>
+                                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                                                     <div class="icons d-flex justify-content-between">
+                                                        <div class="left">
+                                                            <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                                            <i class="fa-solid fa-eye fs-5"></i>
+                                                            <span>1.2k</span>
+                                                        </div>
+                                                        <div class="right">
+                                                            <a href="#" class="">Go to watch...</a>
+                                                        </div>
+                                                     </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="col-xl-4 m-auto col-md-6 col-12 mt-5 mt-md-0 d-flex justify-content-center d-md-block">
+                                                <div class="card ms-4" style="width: 20em;">
+                                                    <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                                        <img src="./img/spiritaway.png" class="card-img-top" width="100%" height="100%">
+                                                    </div>
+                                                    <div class="card-body">
+                                                      <h5 class="card-title fw-bold fs-4">Sprited Away</h5>
+                                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                                                     <div class="icons d-flex justify-content-between">
+                                                        <div class="left">
+                                                            <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                                            <i class="fa-solid fa-eye fs-5"></i>
+                                                            <span>1.2k</span>
+                                                        </div>
+                                                        <div class="right">
+                                                            <a href="#" class="">Go to watch...</a>
+                                                        </div>
+                                                     </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="col-xl-4 m-auto  mt-5 mt-xl-0 col-12 d-flex justify-content-center d-md-block">
+                                                <div class="card ms-4" style="width: 20em;">
+                                                    <div class="imgContainer" style="width: 20em; height: 279.17px;">
+                                                        <img src="./img/silencevoice.png" class="card-img-top" width="100%" height="100%">
+                                                    </div>
+                                                    <div class="card-body">
+                                                      <h5 class="card-title fw-bold fs-4">Slient Voice</h5>
+                                                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Accumsan et aliquam in ornare vitae neque. Integer lorem cras porttitor magna amet id varius lacinia.</p>
+                                                     <div class="icons d-flex justify-content-between">
+                                                        <div class="left">
+                                                            <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                                            <i class="fa-solid fa-eye fs-5"></i>
+                                                            <span>1.2k</span>
+                                                        </div>
+                                                        <div class="right">
+                                                            <a href="#" class="">Go to watch...</a>
+                                                        </div>
+                                                     </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!--------------       ACTION         ----------------------->
+
+            <div class="container-fluid mt-5 pt-5 ">
+                <div class="title d-flex justify-content-between">
+                    <h2 class="fw-bold ms-4">Action</h2>
+                    <p class="text-decoration-underline mt-2 me-5 fs-4" style="color: #3BB4DA; cursor: pointer;">See More...</p>
+                </div>
+              
+                <div class="d-flex justify-content-around flex-wrap">
+                <div class="mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/parasyte.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Parasyte</p>
+            </div>
+
+            <div class="mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/onepuchman.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">One Punch Man</p>
+            </div>
+
+            <div class=" mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/jujutsukaisen.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Jujutsu Kaisen</p>
+            </div>
+
+            <div class=" mt-5 " style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/tokyoghoul.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Tokyo Ghoul</p>
+            </div>
+            </div>
+        </div>
+
+                         <!--------------       Drama         ----------------------->
+
+                         <div class="container-fluid mt-5 pt-5 ">
+                            <div class="title d-flex justify-content-between">
+                                <h2 class="fw-bold ms-4">Drama</h2>
+                                <p class="text-decoration-underline mt-2 me-5 fs-4" style="color: #3BB4DA; cursor: pointer;">See More...</p>
+                            </div>
+                          
+                            <div class="d-flex justify-content-around flex-wrap">
+                            <div class="mt-5" style="width: 250px; height: 250px;">
+                            <div class="image" style="width: 250px; height: 250px;">
+                                <img src="./img/plastic memories.png " width="100%" height="100%">
+                            </div>
+                            <p class="text-center mt-2 fs-5">Plastic Memory</p>
+                        </div>
+            
+                        <div class="mt-5" style="width: 250px; height: 250px;">
+                            <div class="image" style="width: 250px; height: 250px;">
+                                <img src="./img/erased.png " width="100%" height="100%">
+                            </div>
+                            <p class="text-center mt-2 fs-5">Erased</p>
+                        </div>
+            
+                        <div class=" mt-5" style="width: 250px; height: 250px;">
+                            <div class="image" style="width: 250px; height: 250px;">
+                                <img src="./img/aLullinthesea.png " width="100%" height="100%">
+                            </div>
+                            <p class="text-center mt-2 fs-5">A Lull in the Sea</p>
+                        </div>
+            
+                        <div class=" mt-5 " style="width: 250px; height: 250px;">
+                            <div class="image" style="width: 250px; height: 250px;">
+                                <img src="./img/aoharuride.png " width="100%" height="100%">
+                            </div>
+                            <p class="text-center mt-2 fs-5">Ao Haru Ride</p>
+                        </div>
+                        </div>
+                    </div>
+
+             <!--------------       Romance         ----------------------->
+
+             <div class="container-fluid mt-5 pt-5 ">
+                <div class="title d-flex justify-content-between">
+                    <h2 class="fw-bold ms-4">Romance</h2>
+                    <p class="text-decoration-underline mt-2 me-5 fs-4" style="color: #3BB4DA; cursor: pointer;">See More...</p>
+                </div>
+              
+                <div class="d-flex justify-content-around flex-wrap">
+                <div class="mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/Kamisama Kiss.png" width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Kamisama Kiss</p>
+            </div>
+
+            <div class="mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/Horimiya.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Horimiya </p>
+            </div>
+
+            <div class=" mt-5" style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/Kaichou wa Maid-sama!.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Kaichou wa Maid-sama!</p>
+            </div>
+
+            <div class=" mt-5 " style="width: 250px; height: 250px;">
+                <div class="image" style="width: 250px; height: 250px;">
+                    <img src="./img/Sakurasou no Pet na Kanojo.png " width="100%" height="100%">
+                </div>
+                <p class="text-center mt-2 fs-5">Sakurasou no Pet na Kanojo</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid footer text-white pb-3">
+            <div class="row">
+            <div class="col-xl-4 col-sm-6 mt-5 pt-5 fs-2 fw-bold fst-italic">
+                CC Double
+            </div>
+            <div class="botNav col-xl-4 col-sm-6 mt-5 pt-5 fs-5 ">
+                <span class="ms-sm-5">Home</span>
+                <span class="ms-sm-5 ms-5">Contact</span>
+                <span class="ms-sm-5 ms-5">About</span>
+            </div>
+            <div class="col-xl-4 col-12 mt-5">
+                <h5 class="mb-5">Follow us.......</h5>
+                <img src="./img/fb.png">
+                <img src="./img/tt.png" class="ms-4">
+                <img src="./img/insta.png" class="ms-4">
+            </div>
+        </div>
+        <p class="text-center mt-5 pt-4">Copyright © 2022 CC Double .All Rights Reserved</p>
+        </div>
+</body>
+</html>
